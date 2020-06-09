@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo a:hover {
+    cursor: auto;
+}
+
+figcaption {
+    font-size: 0.6em;
+    letter-spacing: 0.1pt;
+    word-spacing: 1px;
+    font-weight: 600;
+}
