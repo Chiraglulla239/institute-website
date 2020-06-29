@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Chirag Lulla",
+        "score": 91,
+        "img": "./assets/Cl.jpg"
+    },
+    {
+        "name": "Suraj Lakhwani",
+        "score": 76,
+        "img": "./assets/Sl.jpg"
+    },
+    {
+        "name": "Sakshi Ailsinghani",
+        "score": 75,
+        "img": "./assets/Sa.jpg"
+    },
+    {
+        "name": "Girish Khemchandani",
+        "score": 73,
+        "img": "./assets/Gk.jpg"
+    },
+    {
+        "name": "Shivansh Singh",
+        "score": 72,
+        "img": "./assets/Ss.jpg"
+    },
+    {
+        "name": "Akhtar Khan",
+        "score": 71,
+        "img": "./assets/Ak.jpg"
+    },
+    {
+        "name": "Kashish Phulwani",
+        "score": 67,
+        "img": "./assets/Kp.jpg"
+    },
+    {
+        "name": "Sony Hotchandani",
+        "score": 65,
+        "img": "./assets/Sh.jpg"
+    },
+    {
+        "name": "Aaditya Asija",
+        "score": 63
+    },
+    {
+        "name": "Nikhil Dung",
+        "score": 63
+    },
+    {
+        "name": "Raghav Jha",
+        "score": 63
+    }
+]

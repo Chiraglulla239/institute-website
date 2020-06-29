@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Yash Kriplani",
+        "score": 98,
+        "img": "./assets/Yk-1.jpg"
+    },
+    {
+        "name": "Piyush Hinduja",
+        "score": 95,
+        "img": "./assets/Ph.jpg"
+    },
+    {
+        "name": "Kunal Budhrani",
+        "score": 94,
+        "img": "./assets/Kb.jpg"
+    },
+    {
+        "name": "Bhavesh Janyani",
+        "score": 88,
+        "img": "./assets/Bj.jpg"
+    },
+    {
+        "name": "Anisha Dhameja",
+        "score": 87,
+        "img": "./assets/Ad.jpg"
+    },
+    {
+        "name": "Lavina Virwani",
+        "score": 84,
+        "img": "./assets/Lv.jpg"
+    },
+    {
+        "name": "Kashish Phulwani",
+        "score": 83,
+        "img": "./assets/Kp.jpg"
+    },
+    {
+        "name": "Aanchal Sukhrani",
+        "score": 81,
+        "img": "./assets/As.jpg"
+    },
+    {
+        "name": "Khushboo Dalwani",
+        "score": 81
+    },
+    {
+        "name": "Simran Makhija",
+        "score": 80
+    },
+    {
+        "name": "Khushal Dodeja",
+        "score": 80
+    },
+    {
+        "name": "Shubham Chimankare",
+        "score": 79
+    },
+    {
+        "name": "Shivansh Singh",
+        "score": 77
+    },
+    {
+        "name": "Janvi Galani",
+        "score": 73
+    },
+    {
+        "name": "Payal Kukreja",
+        "score": 73
+    },
+    {
+        "name": "Aayush Wadhwani",
+        "score": 73
+    },
+    {
+        "name": "Harsh Modi",
+        "score": 73
+    },
+    {
+        "name": "Suraj Lakhwani",
+        "score": 73
+    },
+    {
+        "name": "Girish Khemchandani",
+        "score": 72
+    },
+    {
+        "name": "Tinna Vasnani",
+        "score": 72
+    }
+]

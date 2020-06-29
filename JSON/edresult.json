@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Divesh Hariani",
+        "score": 73,
+        "img": "./assets/Dh.jpg"
+    },
+    {
+        "name": "Vinita Chugh",
+        "score": 71,
+        "img": "./assets/Vc.jpg"
+    },
+    {
+        "name": "Laveen Dalwani",
+        "score": 71,
+        "img": "./assets/Ld.jpg"
+    },
+    {
+        "name": "Ashish Jaiswal",
+        "score": 68,
+        "img": "./assets/Aj.jpg"
+    },
+    {
+        "name": "Deepika Mangnani",
+        "score": 68,
+        "img": "./assets/Dm.jpg"
+    },
+    {
+        "name": "Hitesh Wadhwa",
+        "score": 67,
+        "img": "./assets/Hw.jpg"
+    },
+    {
+        "name": "Khushboo Bhatia",
+        "score": 67,
+        "img": "./assets/Kb.jpg"
+    },
+    {
+        "name": "Paras Gurnani",
+        "score": 67,
+        "img": "./assets/Pg.jpg"
+    },
+    {
+        "name": "Karan Bodha",
+        "score": 65
+    },
+    {
+        "name": "Bhavika Mulwani",
+        "score": 64
+    },
+    {
+        "name": "Divya Kukreja",
+        "score": 64
+    },
+    {
+        "name": "Sahil Lotya",
+        "score": 64
+    },
+    {
+        "name": "Tanish Sahijwani",
+        "score": 63
+    },
+    {
+        "name": "Ankit Jasuja",
+        "score": 61
+    },
+    {
+        "name": "Hiten Lulla",
+        "score": 61
+    },
+    {
+        "name": "Kajal Babani",
+        "score": 60
+    },
+    {
+        "name": "Ritu Kalyani",
+        "score": 60
+    },
+    {
+        "name": "Dishika Kishnani",
+        "score": 59
+    },
+    {
+        "name": "Jasika Sukheja",
+        "score": 59
+    },
+    {
+        "name": "Hanisha Mohinani",
+        "score": 57
+    }
+]

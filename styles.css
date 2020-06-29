@@ -79,17 +79,47 @@ address{
 /* Homepage body ends*/
 
 /* Course-details page body starts */
+
 .container div img{
     font-weight: lighter;
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+#courseName{
+    font-size: 6vw;
+}
+
 /* Course-details page body ends */
+
+/*Hall of Fame body starts*/
+
+.main #halloffame .row section{
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.main #halloffame .card{
+    margin: 0;
+}
+
+/*Hall of Fame Body Ends*/
+
+@media(min-width: 992px){
+    canvas{
+        margin-bottom: 30px;
+        margin-top: 45px;
+        width: 100%;
+        min-height: 200px;
+    }
+}
 
 @media(max-width: 767px){
     /*Homepage body starts*/
 
-    .card{max-width: 40%; margin-left: auto; margin-right: auto;}
+    #homepage .card{max-width: 40%; margin-left: auto; margin-right: auto;}
     
     /*Homepage body ends*/
+
+    
 } 
