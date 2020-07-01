@@ -32,14 +32,14 @@
             (request.status == 200)) {
 
             if (isJsonResponse == undefined) {
-            isJsonResponse = true;
+                isJsonResponse = true;
             }
 
             if (isJsonResponse) {
-            responseHandler(JSON.parse(request.responseText));
+                responseHandler(JSON.parse(request.responseText));
             }
             else {
-            responseHandler(request.responseText);
+                responseHandler(request.responseText);
             }
         }
     }
