@@ -36,7 +36,7 @@ a:hover{
 }
 
 .navbar-toggler-icon{
-    background-image: url(../assets/menu.png);
+    background-image: url(./assets/menu.png);
     color: white;
 }
 
@@ -194,11 +194,9 @@ address{
         height: 1850px;
     }
 
-    
     #course #mechimage img{
         margin-left: 10%;
         width: 80%;
         height: auto;
     }
-    
-} 
+}
