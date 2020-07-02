@@ -105,7 +105,7 @@ address{
     font-size: 7vw;  
 }
 
-#course #mechimage img{
+#course #mechimage img, #course #beeimage img, #course #edimage img{
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -159,7 +159,7 @@ address{
         min-height: 200px;
     }
 
-    #course #mechimage img{
+    #course #mechimage img, #course #beeimage img, #course #edimage img{
         margin-left: 30%;
         width: 40%;
         height: auto;
@@ -175,7 +175,7 @@ address{
         height: 1500px;
     }
     
-    #course #mechimage img{
+    #course #mechimage img, #course #beeimage img, #course #edimage img{
         margin-left: 20%;
         width: 60%;
         height: auto;
@@ -194,7 +194,7 @@ address{
         height: 1850px;
     }
 
-    #course #mechimage img{
+    #course #mechimage img, #course #beeimage img, #course #edimage img{
         margin-left: 10%;
         width: 80%;
         height: auto;
