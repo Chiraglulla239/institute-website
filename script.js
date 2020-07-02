@@ -170,11 +170,7 @@
 
                 html += '</tbody> </table> </section>';
 
-                $ajaxUtils.sendGetRequest(graphHtml, function(responseText){
-                    html += responseText;
-                    document.querySelector('#toppers').innerHTML = html;
-                },
-                false);
+                document.querySelector('#toppers').innerHTML = html;
             }, 
             true);
         }, 
@@ -259,12 +255,7 @@
                 }
 
                 html += '</tbody> </table> </section>';
-
-                $ajaxUtils.sendGetRequest(graphHtml, function(responseText){
-                    html += responseText;
-                    document.querySelector('#toppers').innerHTML = html;
-                },
-                false);
+                document.querySelector('#toppers').innerHTML = html;
             }, 
             true);
         }, 
@@ -324,12 +315,7 @@
                 }
 
                 html += '</tbody> </table> </section>';
-
-                $ajaxUtils.sendGetRequest(graphHtml, function(responseText){
-                    html += responseText;
-                    document.querySelector('#toppers').innerHTML = html;
-                },
-                false);
+                document.querySelector('#toppers').innerHTML = html;
             }, 
             true);
         }, 
