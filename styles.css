@@ -75,7 +75,8 @@ footer{
 
 address{
     padding: 25px;
-    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
     margin: 0;
 }
 
@@ -86,6 +87,35 @@ address a{
 address a:hover, address a:active{
     text-decoration: underline;
     color: wheat;
+}
+
+#map-tile{
+    padding: 0;
+    padding-top: 10px;
+}
+
+#map-tile iframe{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;    
+}
+
+#social-media{
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    height: 1.2rem;
+}
+
+#social-media a{
+    margin-right: 4px;
+}
+
+#copyright{
+    margin-top: 20px;
+}
+
+#space{
+    height: 5px;
 }
 
 /* Footer ends */
@@ -157,7 +187,7 @@ address a:hover, address a:active{
     border-radius: 50%;
     color: #2a3366;
     border: 1px solid #464f83;
-    background-color: #aacaee;
+    background-color: #aacaee3d;
     text-align: center;
     font-size: 1.1em;
     font-weight: 500;
@@ -265,6 +295,15 @@ address a:hover, address a:active{
     .features .cirfeat{
         font-size: 1em;
     }
+
+    #map-tile iframe{
+        height: 300px;
+        width: 100%;
+    }
+
+    address{
+        text-align: center;
+    }
 }
 
 @media(max-width: 575px){
@@ -275,6 +314,11 @@ address a:hover, address a:active{
 
     .features .cirfeat{
         font-size: 1em;
+    }
+
+    #map-tile iframe{
+        height: 225px;
+        width: 100%;
     }
 }
 

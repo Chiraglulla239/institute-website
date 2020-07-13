@@ -111,8 +111,8 @@
                     html += '<div class="card">';
                     html += `<img class="card-image-top" src=" ${image} " alt=" ${name} ">`;
                     html += '<div class="card-body">';
-                    html += `<p> ${name} </p>`;
-                    html += `<p> ${score} <span>in Mechanics</span></p>`;
+                    html += `<h4> ${name} </h4>`;
+                    html += `<p> ${score} <span>/ 100 in Mechanics</span></p>`;
                     html += '</div> </div> </section>';
                 }
 
@@ -197,8 +197,8 @@
                     html += '<div class="card">';
                     html += `<img class="card-image-top" src=" ${image} " alt=" ${name} ">`;
                     html += '<div class="card-body">';
-                    html += `<p> ${name} </p>`;
-                    html += `<p> ${score} <span>in Engineering Drawing</span></p>`;
+                    html += `<h4> ${name} </h4>`;
+                    html += `<p> ${score} <span>/ 75 in Engineering Drawing</span></p>`;
                     html += '</div> </div> </section>';
                 }
 
@@ -211,7 +211,7 @@
                 html += '<tr>';
                 html += '<th scope="col">#</th>';
                 html += '<th scope="col">Name</th>';
-                html += '<th scope="col">Score <span>(/100)</span></th>';
+                html += '<th scope="col">Score <span>(/75)</span></th>';
                 html += '</tr>';
                 html += '</thead>';
                 html += '<tbody>';
@@ -236,7 +236,7 @@
                 html += '<tr>';
                 html += '<th scope="col">#</th>';
                 html += '<th scope="col">Name</th>';
-                html += '<th scope="col">Score <span>(/100)</span></th>';
+                html += '<th scope="col">Score <span>(/75)</span></th>';
                 html += '</tr>';
                 html += '</thead>';
                 html += '<tbody>';
@@ -282,8 +282,8 @@
                     html += '<div class="card">';
                     html += `<img class="card-image-top" src=" ${image} " alt=" ${name} ">`;
                     html += '<div class="card-body">';
-                    html += `<p> ${name} </p>`;
-                    html += `<p> ${score} <span>in BEE</span></p>`;
+                    html += `<h4> ${name} </h4>`;
+                    html += `<p> ${score} <span>/ 100 in BEE</span></p>`;
                     html += '</div> </div> </section>';
                 }
 
