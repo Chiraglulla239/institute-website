@@ -1,0 +1,98 @@
+[
+    {
+        "name" : "Yash Kalyani",
+        "score" : 94,
+        "img" : "./assets/mechResult18/Yk-2.jpg"
+    },
+    {
+        "name" : "Vinita Chugh",
+        "score" : 93,
+        "img" : "./assets/mechResult18/Vc-1.jpg"
+    },
+    {
+        "name" : "Divesh Hariani",
+        "score" : 87,
+        "img" : "./assets/mechResult18/Dh-1.jpg"
+    },
+    {
+        "name" : "Hitesh Wadhwa",
+        "score" : 86,
+        "img" : "./assets/mechResult18/Hw-1.jpg"
+    },
+    {
+        "name" : "Bhavika Mulwani",
+        "score" : 85,
+        "img" : "./assets/mechResult18/Bm-1.jpg"
+    },
+    {
+        "name" : "Paras Gurnani",
+        "score" : 85,
+        "img" : "./assets/mechResult18/Pg-1.jpg"
+    },
+    {
+        "name" : "Deepika Mangnani",
+        "score" : 84,
+        "img" : "./assets/mechResult18/Dm-1.jpg"
+    },
+    {
+        "name" : "Kajal Babani",
+        "score" : 82,
+        "img" : "./assets/mechResult18/Kb-1"
+    },
+    {
+        "name" : "Hiten Lulla",
+        "score" : 80
+    },
+    {
+        "name" : "Sahil Sedana",
+        "score" : 80
+    },
+    {
+        "name" : "Rashmi Manwani",
+        "score" : 80
+    },
+    {
+        "name" : "Hitika Hemnani",
+        "score" : 78
+    },
+    {
+        "name" : "Sahil Lotya",
+        "score" : 77
+    },
+    {
+        "name" : "Aakash Vanjani",
+        "score" : 74
+    },
+    {
+        "name" : "Karan Bodha",
+        "score" : 72
+    },
+    {
+        "name" : "Dinesh Gulabani",
+        "score" : 71
+    },
+    {
+        "name" : "Khushboo Bhatia",
+        "score" : 71
+    },
+    {
+        "name" : "Aashish Jaiswal",
+        "score" : 70
+    },
+    {
+        "name" : "Sahil Chawla ",
+        "score" : 69
+    },
+    {
+        "name" : "Neeraj Kukreja",
+        "score" : 67
+    },
+    {
+        "name" : "Laveen Dawani",
+        "score" : 67
+    },
+    {
+        "name" : "Dhiraj Chhabria",
+        "score" : 67
+    }
+]
