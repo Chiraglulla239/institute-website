@@ -47,9 +47,9 @@ document.addEventListener("DOMContentLoaded",function(event){
             }  
         }
     });
-    let element = document.getElementById('muChart').getContext('2d');
+    element = document.getElementById('muChart').getContext('2d');
 
-    let barChart = new Chart(element, {
+    barChart = new Chart(element, {
         type: 'bar',
         data: {
             labels: ["90+", "80+", "70+", "60+", "50+"],

@@ -22,35 +22,37 @@
         </div>
         <nav class="navbar navbar-expand-md py-0">
             <span class="navbar-brand">M. K. Tutorials</span>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavBar" aria-controls="collapsibleNavBar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="button-container navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavBar" aria-controls="collapsibleNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
             <div class="collapse navbar-collapse" id="collapsibleNavBar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" id="Home">Home</a>
+                        <a class="nav-link active" id="Home" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Desk">Teachers' desk</a>
+                        <a class="nav-link" id="Desk" href="#">Teachers' desk</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Course Details</a>
                         <div class="dropdown-menu py-0" aria-labelledby="navbardrop">
-                            <a class="dropdown-item" id="mechcourse">Engineering Mechanics</a>
-                            <a class="dropdown-item" id="beecourse">Basic Electrical Engineering</a>
-                            <a class="dropdown-item" id="edcourse">Engineering Graphics</a>
+                            <a class="dropdown-item" id="mechcourse" href="#">Engineering Mechanics</a>
+                            <a class="dropdown-item" id="beecourse" href="#">Basic Electrical Engineering</a>
+                            <a class="dropdown-item" id="edcourse" href="#">Engineering Graphics</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbardrop2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Hall of Fame</a>
                         <div class="dropdown-menu py-0" aria-labelledby="navbardrop2">
-                            <a class="dropdown-item" id="mechresults">Engineering Mechanics</a>
-                            <a class="dropdown-item" id="beeresults">Basic Electrical Engineering</a>
-                            <a class="dropdown-item" id="edresults">Engineering Graphics</a>
+                            <a class="dropdown-item" id="mechresults2019" href="#">Engineering Mechanics</a>
+                            <a class="dropdown-item" id="beeresults2019" href="#">Basic Electrical Engineering</a>
+                            <a class="dropdown-item" id="edresults2019" href="#">Engineering Graphics</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Admission">Admission</a>
+                        <a class="nav-link" id="Admission" href="#">Admission</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +99,9 @@
     <script src="./Bootstrap/js/jquery-3.5.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="./Bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="./ajax-utils.js"></script>
     <script src="./script.js"></script>
+    <script src="./graphs.js"></script>
 </body>
 </html>
