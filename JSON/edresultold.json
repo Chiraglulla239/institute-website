@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "Arjun Adukathil",
+        "score" : 68,
+        "img" : "./assets/Ph-1.jpg"
+    },
+    {
+        "name" : "Chandini Panjabi",
+        "score" : 64,
+        "img" : "./assets/Ph-1.jpg"
+    },
+    {
+        "name" : "Payal Gidwani",
+        "score" : 60,
+        "img" : "./assets/Ph-1.jpg"
+    },
+    {
+        "name" : "Jaya Tanwani",
+        "score" : 59,
+        "img" : "./assets/Ph-1.jpg"
+    },
+    {
+        "name" : "Roshni Rohra",
+        "score" : 58,
+        "img" : "./assets/Ph-1.jpg"
+    },
+    {
+        "name" : "Mansi Panjwani",
+        "score" : 57,
+        "img" : "./assets/Ph-1.jpg"
+    },
+    {
+        "name" : "Parth Mangtani",
+        "score" : 54,
+        "img" : "./assets/Ph-1.jpg"
+    },
+    {
+        "name" : "Vanshika Makhija",
+        "score" : 51,
+        "img" : "./assets/Ph-1.jpg"
+    },
+    {
+        "name" : "Tanya Khanchandani",
+        "score" : 51
+    },
+    {
+        "name" : "Vishal Tejwani",
+        "score" : 50
+    }
+] 
