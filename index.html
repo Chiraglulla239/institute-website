@@ -30,29 +30,29 @@
             <div class="collapse navbar-collapse" id="collapsibleNavBar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" id="Home" href="#">Home</a>
+                        <a class="nav-link active" id="Home" onclick="$mk.openHome();" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Desk" href="#">Teachers' desk</a>
+                        <a class="nav-link" id="Desk" onclick="$mk.openDesk();"href="#">Teachers' desk</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Course Details</a>
                         <div class="dropdown-menu py-0" aria-labelledby="navbardrop">
-                            <a class="dropdown-item" id="mechcourse" href="#">Engineering Mechanics</a>
-                            <a class="dropdown-item" id="beecourse" href="#">Basic Electrical Engineering</a>
-                            <a class="dropdown-item" id="edcourse" href="#">Engineering Graphics</a>
+                            <a class="dropdown-item" id="mechcourse" onclick="$mk.openMech();" href="#">Engineering Mechanics</a>
+                            <a class="dropdown-item" id="beecourse" onclick="$mk.openBee();" href="#">Basic Electrical Engineering</a>
+                            <a class="dropdown-item" id="edcourse" onclick="$mk.openEg();" href="#">Engineering Graphics</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbardrop2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Hall of Fame</a>
                         <div class="dropdown-menu py-0" aria-labelledby="navbardrop2">
-                            <a class="dropdown-item" id="mechresults2019" href="#">Engineering Mechanics</a>
-                            <a class="dropdown-item" id="beeresults2019" href="#">Basic Electrical Engineering</a>
-                            <a class="dropdown-item" id="edresults2019" href="#">Engineering Graphics</a>
+                            <a class="dropdown-item" id="mechresults2019" onclick="$mk.openMechResults();" href="#">Engineering Mechanics</a>
+                            <a class="dropdown-item" id="beeresults2019" onclick="$mk.openBeeResults();" href="#">Basic Electrical Engineering</a>
+                            <a class="dropdown-item" id="edresults2019" onclick="$mk.openEgResults();" href="#">Engineering Graphics</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Admission" href="#">Admission</a>
+                        <a class="nav-link" id="Admission" onclick="$mk.openAdmission();" href="#">Admission</a>
                     </li>
                 </ul>
             </div>

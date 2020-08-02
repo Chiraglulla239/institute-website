@@ -105,14 +105,14 @@
         })
     });
 
-    document.querySelector('#Home').addEventListener('click', function(){
+    mk.openHome = function(){
         showLoading('.main');
         switchToActive('#Home');
         $ajaxUtils.sendGetRequest(homeHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
+    }
 
     let loadResults = function(main, json){
         let outOF = json == edresultjson2019 || edresultjsonOld ? 75 : 100;
@@ -233,69 +233,70 @@
         false);
     }
 
-    document.querySelector('#mechresults2019').addEventListener('click', function(){
+    mk.openMechResults = function(){
         showLoading('.main');
         switchToActive('#mechresults2019');
         loadResults('.main', mechresultjson2019);
-        
-    });
+    }
 
-    document.querySelector('#edresults2019').addEventListener('click', function(){
+    mk.openEgResults = function(){
         showLoading('.main');
         switchToActive('#edresults2019');
         loadResults('.main',edresultjson2019);
-    });
+    }
 
-    document.querySelector('#beeresults2019').addEventListener('click', function(){
+    mk.openBeeResults = function(){
         showLoading('.main');
         switchToActive('#beeresults2019');
         loadResults('.main',beeresultjson2019);
-    });
+    }
 
-    document.querySelector('#Desk').addEventListener('click', function(){
+    mk.openDesk = function(){
         showLoading('.main');
         switchToActive('#Desk');
         $ajaxUtils.sendGetRequest(deskHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
+    }
 
-    document.querySelector('#mechcourse').addEventListener('click', function(){
+    mk.openMech = function(){
         showLoading('.main');
         switchToActive('#mechcourse');
         $ajaxUtils.sendGetRequest(mechcourseHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
+    }
 
-    document.querySelector('#beecourse').addEventListener('click', function(){
+    mk.openBee = function(){
         showLoading('.main');
         switchToActive('#beecourse');
         $ajaxUtils.sendGetRequest(beecourseHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
 
-    document.querySelector('#edcourse').addEventListener('click', function(){
+    }
+
+    mk.openEg = function(){
         showLoading('.main');
         switchToActive('#edcourse');
         $ajaxUtils.sendGetRequest(edcourseHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
 
-    document.querySelector('#Admission').addEventListener('click', function(){
+    }
+
+    mk.openAdmission = function(){
         showLoading('.main');
         switchToActive('#Admission');
         $ajaxUtils.sendGetRequest(admissionHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
+    }
 
     global.$mk = mk;
 
