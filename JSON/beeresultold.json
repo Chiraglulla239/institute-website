@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Divesh Hariani",
+        "score": 92,
+        "img": "./assets/Dh-1.jpg"
+    },
+    {
+        "name": "Aakash Vanjani",
+        "score": 89,
+        "img": "./assets/Av-1.jpg"
+    },
+    {
+        "name": "Hritik Jetthwani",
+        "score": 87,
+        "img": "./assets/Hj-1.jpg"
+    },
+    {
+        "name": "Sahil Chawla",
+        "score": 85,
+        "img": "./assets/Sc-1.jpg"
+    },
+    {
+        "name": "Hanisha Mohinani",
+        "score": 81,
+        "img": "./assets/Hm-1.jpg"
+    },
+    {
+        "name": "Jayesh Kriplani",
+        "score": 81,
+        "img": "./assets/Jk-1.jpg"
+    },
+    {
+        "name": "Tanish Sahijwani",
+        "score": 76,
+        "img": "./assets/Ts-1.jpg"
+    },
+    {
+        "name": "Karan Bodha",
+        "score": 74,
+        "img": "./assets/Kb-1.jpg"
+    },
+    {
+        "name": "Hritik Ahuja",
+        "score": 74
+    },
+    {
+        "name": "Vinay Ludhrani",
+        "score": 74
+    },
+    {
+        "name": "Bhavika Mulwani",
+        "score": 72
+    },
+    {
+        "name": "Rishika Shivnani",
+        "score": 71
+    },
+    {
+        "name": "Janvi Lala",
+        "score": 71
+    },
+    {
+        "name": "Dinesh Gulabani",
+        "score": 70
+    },
+    {
+        "name": "Neeraj Kukreja",
+        "score": 70
+    },
+    {
+        "name": "Paras Gurnani",
+        "score": 67
+    },
+    {
+        "name": "Pratik Chainani",
+        "score": 67
+    },
+    {
+        "name": "Amar Ahuja",
+        "score": 67
+    },
+    {
+        "name": "Sahil Lotya",
+        "score": 64
+    },
+    {
+        "name": "Praveen Mirchandani",
+        "score": 64
+    },
+    {
+        "name": "Hanisha Durgia",
+        "score": 64
+    }
+]
