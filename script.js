@@ -115,7 +115,7 @@
     }
 
     let loadResults = function(main, json){
-        let outOF = json == edresultjson2019 || edresultjsonOld ? 75 : 100;
+        let outOF = (json == edresultjson2019 ||json == edresultjsonOld) ? 75 : 100;
         let subject;
         let oldjson;
         let newjson;
@@ -137,7 +137,8 @@
         $ajaxUtils.sendGetRequest(resultHtml, function(responseText){
             document.querySelector(main).innerHTML = responseText;
             $ajaxUtils.sendGetRequest(json, function(results){
-                let html ='<ul class="nav nav-tabs">';
+                let html=`<h3 style:"padding: 2rem">Our Toppers in ${subject} </h3>` 
+                html +='<ul class="nav nav-tabs">';
                 html += '<li class="nav-item">';
                 html += '<a class="nav-link" style="color: black;" id="new">2019-20</a>';
                 html += '</li>';
@@ -166,7 +167,7 @@
                     html += `<img class="card-image-top" src=" ${image} " alt=" ${name} ">`;
                     html += '<div class="card-body">';
                     html += `<h4> ${name} </h4>`;
-                    html += `<p> ${score} <span>/ ${outOF} in ${subject}</span></p>`;
+                    html += `<p> ${score} <span>/ ${outOF}</span></p>`;
                     html += '</div> </div> </section>';
                 }
 
