@@ -1,0 +1,52 @@
+[
+    {
+        "name" : "Gaurav Bhagwanani",
+        "score" : 89,
+        "img" : "./assets/mechResult17/Gb-1.jpg"
+    },
+    {
+        "name" : "Arjun Adukathil",
+        "score" : 82,
+        "img" : "./assets/mechResult17/Aa-1.jpg"
+    },
+    {
+        "name" : "Jaya Tanwani",
+        "score" : 77,
+        "img" : "./assets/mechResult17/Jt-1.jpg"
+    },
+    {
+        "name" : "Kajol Acchra",
+        "score" : 73,
+        "img" : "./assets/mechResult17/Ka-1.jpg"
+    },
+    {
+        "name" : "Roshni Rohra",
+        "score" : 69,
+        "img" : "./assets/mechResult17/Rr-1.jpg"
+    },
+    {
+        "name" : "Pooja Kamrani",
+        "score" : 67,
+        "img" : "./assets/mechResult17/Pk-1.jpg"
+    },
+    {
+        "name" : "Mansi Panjwani",
+        "score" : 67,
+        "img" : "./assets/mechResult17/Mp-1.jpg"
+    },
+    {
+        "name" : "Tanya Khanchandani",
+        "score" : 65,
+        "img" : "./assets/mechResult17/Tk-1.jpg"
+    },
+    {
+        "name" : "Vanshika Makhija",
+        "score" : 64,
+        "img" : "./assets/mechResult17/Vm-1.jpg"
+    },
+    {
+        "name" : "Parth Mangnani",
+        "score" : 60,
+        "img" : "./assets/mechResult17/Pm-1.jpg"
+    }
+]

@@ -22,29 +22,31 @@
     {
         "name" : "Roshni Rohra",
         "score" : 58,
-        "img" : "https://via.placeholder.com/150" 
+        "img" : "./assets/edResult17/Rr.jpg"
     },
     {
         "name" : "Mansi Panjwani",
         "score" : 57,
-        "img" : "https://via.placeholder.com/150"
+        "img" : "./assets/edResult17/Mp.jpg"
     },
     {
         "name" : "Parth Mangtani",
         "score" : 54,
-        "img" : "https://via.placeholder.com/150"
+        "img" : "./assets/edResult17/Pm.jpg"
     },
     {
         "name" : "Vanshika Makhija",
         "score" : 51,
-        "img" : "https://via.placeholder.com/150"
+        "img" : "./assets/edResult17/Vm.jpg"
     },
     {
         "name" : "Tanya Khanchandani",
-        "score" : 51
+        "score" : 51,
+        "img" : "./assets/edResult17/Tk.jpg"
     },
     {
         "name" : "Vishal Tejwani",
-        "score" : 50
+        "score" : 50,
+        "img" : "./assets/edResult17/Vt.jpg"
     }
-] 
+]
