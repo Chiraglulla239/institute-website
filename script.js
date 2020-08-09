@@ -105,17 +105,17 @@
         })
     });
 
-    document.querySelector('#Home').addEventListener('click', function(){
+    mk.openHome = function(){
         showLoading('.main');
         switchToActive('#Home');
         $ajaxUtils.sendGetRequest(homeHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
+    }
 
     let loadResults = function(main, json){
-        let outOF = json == edresultjson2019 || edresultjsonOld ? 75 : 100;
+        let outOF = (json == edresultjson2019 ||json == edresultjsonOld) ? 75 : 100;
         let subject;
         let oldjson;
         let newjson;
@@ -137,7 +137,8 @@
         $ajaxUtils.sendGetRequest(resultHtml, function(responseText){
             document.querySelector(main).innerHTML = responseText;
             $ajaxUtils.sendGetRequest(json, function(results){
-                let html ='<ul class="nav nav-tabs">';
+                let html=`<h3 style:"padding: 2rem">Our Toppers in ${subject} </h3>` 
+                html +='<ul class="nav nav-tabs">';
                 html += '<li class="nav-item">';
                 html += '<a class="nav-link" style="color: black;" id="new">2019-20</a>';
                 html += '</li>';
@@ -166,7 +167,7 @@
                     html += `<img class="card-image-top" src=" ${image} " alt=" ${name} ">`;
                     html += '<div class="card-body">';
                     html += `<h4> ${name} </h4>`;
-                    html += `<p> ${score} <span>/ ${outOF} in ${subject}</span></p>`;
+                    html += `<p> ${score} <span>/ ${outOF}</span></p>`;
                     html += '</div> </div> </section>';
                 }
 
@@ -233,69 +234,70 @@
         false);
     }
 
-    document.querySelector('#mechresults2019').addEventListener('click', function(){
+    mk.openMechResults = function(){
         showLoading('.main');
         switchToActive('#mechresults2019');
         loadResults('.main', mechresultjson2019);
-        
-    });
+    }
 
-    document.querySelector('#edresults2019').addEventListener('click', function(){
+    mk.openEgResults = function(){
         showLoading('.main');
         switchToActive('#edresults2019');
         loadResults('.main',edresultjson2019);
-    });
+    }
 
-    document.querySelector('#beeresults2019').addEventListener('click', function(){
+    mk.openBeeResults = function(){
         showLoading('.main');
         switchToActive('#beeresults2019');
         loadResults('.main',beeresultjson2019);
-    });
+    }
 
-    document.querySelector('#Desk').addEventListener('click', function(){
+    mk.openDesk = function(){
         showLoading('.main');
         switchToActive('#Desk');
         $ajaxUtils.sendGetRequest(deskHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
+    }
 
-    document.querySelector('#mechcourse').addEventListener('click', function(){
+    mk.openMech = function(){
         showLoading('.main');
         switchToActive('#mechcourse');
         $ajaxUtils.sendGetRequest(mechcourseHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
+    }
 
-    document.querySelector('#beecourse').addEventListener('click', function(){
+    mk.openBee = function(){
         showLoading('.main');
         switchToActive('#beecourse');
         $ajaxUtils.sendGetRequest(beecourseHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
 
-    document.querySelector('#edcourse').addEventListener('click', function(){
+    }
+
+    mk.openEg = function(){
         showLoading('.main');
         switchToActive('#edcourse');
         $ajaxUtils.sendGetRequest(edcourseHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
 
-    document.querySelector('#Admission').addEventListener('click', function(){
+    }
+
+    mk.openAdmission = function(){
         showLoading('.main');
         switchToActive('#Admission');
         $ajaxUtils.sendGetRequest(admissionHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    });
+    }
 
     global.$mk = mk;
 
