@@ -222,22 +222,101 @@ address a:hover, address a:active{
 
 /* Course-details page body starts */
 
-#courseNamemech{
-    font-size: 7vw;  
+.Course-1,.Course-2,.Course-3{
+    background-image: linear-gradient(to left, #6b1bd4, #3b57d3);
+    border-radius: 10px;
 }
 
-#course #mechimage img, #course #beeimage img, #course #edimage img{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.Course-1:hover,.Course-2:hover,.Course-3:hover{
+    box-shadow: 2px 3px 3px 2px #b4cfd8;
+}
+body > div > p{
+    font-size: larger;
 }
 
-#courseDetails{
-    padding-top: 20px;
-    font-size: 1.1em;
+.h1{
+    color: azure;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 2px 2px black;
+}
+.Course-1 > .original-1,.Course-2> .original-2,.Course-3 > .original-3{
+    text-decoration: none;
 }
 
-#courseDetails span{
-    font-weight: 500;
+.container-1 ,.container-2 , .container-3{
+    position: relative;
+}
+
+.Course-1 , .Course-2 , .Course-3 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.overlay-1 , .overlay-2, .overlay-3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3b57d3;
+    border-radius: 10px;
+    padding: 0;
+    border: 0.5px solid #415edf;
+    box-shadow: 1px 1px 2px #4770e2;
+}
+
+.container-1:hover .overlay-1 , .container-2:hover .overlay-2 , .container-3:hover .overlay-3 {
+    opacity: 1;
+}
+
+.text-1,.text-2, .text-3{
+    color: white;
+    font-size: 20px;
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.click{
+    /* display: none; */
+    padding: 15px 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 2px 2px rgb(31, 18, 143);
+    text-align: center;
+}
+
+@media (max-width:1200px){
+    .text-1,.text-2, .text-3{
+        text-align: unset;
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width:768px){
+    .text-1,.text-2, .text-3{
+        font-size: large;
+    }
+}
+
+@media (max-width:550px){
+    .text-1,.text-2, .text-3{
+        font-size: small;
+    }
 }
 
 /* Course-details page body ends */

@@ -3,9 +3,7 @@
 
     const homeHtml = "./code-snippets/homesnippet.html";
     const resultHtml = "./code-snippets/halloffame.html";
-    const mechcourseHtml = "./code-snippets/mechcourse.html";
-    const beecourseHtml = "./code-snippets/beecourse.html";
-    const edcourseHtml = "./code-snippets/edcourse.html";
+    const courseHtml = "./code-snippets/course.html";
     const deskHtml = "./code-snippets/desk.html";
     const admissionHtml = "./code-snippets/Admission.html";
     const graphHtml = "./code-snippets/graph.html";
@@ -43,17 +41,9 @@
         classes = classes.replace(new RegExp("active", "g"), "");
         document.querySelector("#Desk").className = classes;
 
-        classes = document.querySelector("#beecourse").className;
+        classes = document.querySelector("#course").className;
         classes = classes.replace(new RegExp("active", "g"), "");
-        document.querySelector("#beecourse").className = classes;
-
-        classes = document.querySelector("#mechcourse").className;
-        classes = classes.replace(new RegExp("active", "g"), "");
-        document.querySelector("#mechcourse").className = classes;
-
-        classes = document.querySelector("#edcourse").className;
-        classes = classes.replace(new RegExp("active", "g"), "");
-        document.querySelector("#edcourse").className = classes;
+        document.querySelector("#course").className = classes;
 
         classes = document.querySelector("#mechresults2019").className;
         classes = classes.replace(new RegExp("active", "g"), "");
@@ -261,33 +251,13 @@
         false);
     }
 
-    mk.openMech = function(){
+    mk.openCourse = function(){
         showLoading('.main');
-        switchToActive('#mechcourse');
-        $ajaxUtils.sendGetRequest(mechcourseHtml, function(responseText) {
+        switchToActive('#course');
+        $ajaxUtils.sendGetRequest(courseHtml, function(responseText) {
             document.querySelector('.main').innerHTML = responseText;
         },
         false);
-    }
-
-    mk.openBee = function(){
-        showLoading('.main');
-        switchToActive('#beecourse');
-        $ajaxUtils.sendGetRequest(beecourseHtml, function(responseText) {
-            document.querySelector('.main').innerHTML = responseText;
-        },
-        false);
-
-    }
-
-    mk.openEg = function(){
-        showLoading('.main');
-        switchToActive('#edcourse');
-        $ajaxUtils.sendGetRequest(edcourseHtml, function(responseText) {
-            document.querySelector('.main').innerHTML = responseText;
-        },
-        false);
-
     }
 
     mk.openAdmission = function(){
