@@ -223,7 +223,7 @@ address a:hover, address a:active{
 /* Course-details page body starts */
 
 .Course-1,.Course-2,.Course-3{
-    background-image: linear-gradient(to left, #6b1bd4, #3b57d3);
+    background-image: linear-gradient(to left, #1b4cd4, #3b7dd3);
     border-radius: 10px;
 }
 
@@ -254,7 +254,6 @@ body > div > p{
     display: block;
     width: 100%;
     height: auto;
-    margin: 10px;
 }
 
 .overlay-1 , .overlay-2, .overlay-3 {
@@ -291,7 +290,7 @@ body > div > p{
 }
 
 .click{
-    /* display: none; */
+    display: none;
     padding: 15px 15px 30px;
     font-size: 1.2rem;
     color: white;
@@ -310,6 +309,9 @@ body > div > p{
 @media (max-width:768px){
     .text-1,.text-2, .text-3{
         font-size: large;
+    }
+    .click{
+        display: block;
     }
 }
 
@@ -341,6 +343,7 @@ body > div > p{
 #profNamemk, #profNamedm{
     margin-bottom: 25px;
     letter-spacing: 1;
+    font-size: 27px;
 }
 
 /*Hall of Fame body starts*/

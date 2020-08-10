@@ -2,42 +2,42 @@
     {
         "name": "Divesh Hariani",
         "score": 92,
-        "img": "./assets/Dh-1.jpg"
+        "img": "./assets/beeResultOld/Dh-1.jpg"
     },
     {
         "name": "Aakash Vanjani",
         "score": 89,
-        "img": "./assets/Av-1.jpg"
+        "img": "https://via.placeholder.com/650x860"
     },
     {
         "name": "Hritik Jetthwani",
         "score": 87,
-        "img": "./assets/Hj-1.jpg"
+        "img": "https://via.placeholder.com/650x860"
     },
     {
         "name": "Sahil Chawla",
         "score": 85,
-        "img": "./assets/Sc-1.jpg"
+        "img": "https://via.placeholder.com/650x860"
     },
     {
         "name": "Hanisha Mohinani",
         "score": 81,
-        "img": "./assets/Hm-1.jpg"
+        "img": "https://via.placeholder.com/650x860"
     },
     {
         "name": "Jayesh Kriplani",
         "score": 81,
-        "img": "./assets/Jk-1.jpg"
+        "img": "https://via.placeholder.com/650x860"
     },
     {
         "name": "Tanish Sahijwani",
         "score": 76,
-        "img": "./assets/Ts-1.jpg"
+        "img": "./assets/beeResultOld/Ts-1.jpg"
     },
     {
         "name": "Karan Bodha",
         "score": 74,
-        "img": "./assets/Kb-1.jpg"
+        "img": "./assets/beeResultOld/Kb-1.png"
     },
     {
         "name": "Hritik Ahuja",
@@ -85,10 +85,6 @@
     },
     {
         "name": "Praveen Mirchandani",
-        "score": 64
-    },
-    {
-        "name": "Hanisha Durgia",
         "score": 64
     }
 ]
