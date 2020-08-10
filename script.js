@@ -109,8 +109,10 @@
         let subject;
         let oldjson;
         let newjson;
+        let year;
         if(json == mechresultjson2019 || json == mechresultjsonOld){
             subject = 'Mechanics';
+            year = "2019-20";
             oldjson = mechresultjsonOld;
             newjson = mechresultjson2019;
         }
@@ -118,8 +120,10 @@
             subject = 'Engineering Drawing';
             oldjson = edresultjsonOld;
             newjson = edresultjson2019
+            year = "2018-19";
         }
         else{
+            year = "2019-20";
             subject = "BEE";
             newjson = beeresultjson2019;
             oldjson = beeresultjsonOld;
@@ -130,7 +134,7 @@
                 let html=`<h3 style:"padding: 2rem">Our Toppers in ${subject} </h3>` 
                 html +='<ul class="nav nav-tabs">';
                 html += '<li class="nav-item">';
-                html += '<a class="nav-link" style="color: black;" id="new">2019-20</a>';
+                html += `<a class="nav-link" style="color: black;" id="new">${year}</a>`;
                 html += '</li>';
                 html += '<li class="nav-item">';
                 html += '<a class="nav-link" style="color: black;" id="older">Older</a>';
