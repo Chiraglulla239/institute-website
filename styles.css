@@ -327,8 +327,8 @@ body > div > p{
 
 #achievementsmk section, #achievementsdm section{
     font-size: 17px;
-    background-color: rgb(222, 236, 245);
-    border : 1px solid black;
+    background-color: rgb(253, 253, 255);
+    border : 1px solid rgb(172, 172, 172);
     padding: 10px 15px 10px 0;
 }
 
@@ -344,6 +344,25 @@ body > div > p{
     margin-bottom: 25px;
     letter-spacing: 1;
     font-size: 27px;
+}
+
+#vertical{
+    border-left: 1px solid rgb(172, 172, 172);
+}
+
+#divider{
+    display: none;
+}
+
+@media(max-width: 767px){
+    #vertical{
+        border-left: 0;
+    }
+    #divider{
+        display: block;
+        width: 100%;
+        height: 2px;
+    }
 }
 
 /*Hall of Fame body starts*/
